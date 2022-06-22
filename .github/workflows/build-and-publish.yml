@@ -30,4 +30,4 @@ jobs:
           push: true
           tags: schuerstedt/azurepipelinetest:latest
       - name: Image digest
-        run: echo "hi mac"
+        run: echo "hi mac :{{defaultContext}}:"
