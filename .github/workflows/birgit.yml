@@ -11,4 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Birgit Hallo
-        run: ls -la
+        run: ls -la ..
+      - run: pwd
+        
