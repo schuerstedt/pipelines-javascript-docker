@@ -13,5 +13,5 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: script
-        run: test.sh
+        run: ./.github/test.sh
         shell: bash
