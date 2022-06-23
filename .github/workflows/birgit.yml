@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
        
     steps:
-      - uses: actions/checkout@v1
-      - name: script
-        run: ./.github/test.sh
-        shell: bash
+      # gets the latest repo
+      - uses: actions/checkout@v3
+      - name: run the script
+        run: ls -la
