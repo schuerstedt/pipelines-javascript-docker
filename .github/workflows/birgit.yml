@@ -13,5 +13,6 @@ jobs:
     steps:
       # gets the latest repo
       - uses: actions/checkout@v3
+      # run the test.sh script via bash in the main directory of our repository (try a ls -la to see all files)
       - name: run the script
         run: bash test.sh
