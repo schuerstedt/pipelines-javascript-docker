@@ -11,4 +11,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Birgit Hallo
-        run: echo "hi birgit"
+        run: ls -la
