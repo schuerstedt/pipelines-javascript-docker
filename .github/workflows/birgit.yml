@@ -9,8 +9,9 @@ on:
 jobs:
   docker:
     runs-on: ubuntu-latest
+       
     steps:
-      - name: Birgit Hallo
-        run: ls -la ..
-      - run: pwd
-        
+      - uses: actions/checkout@v1
+      - name: script
+        run: test.sh
+        shell: bash
