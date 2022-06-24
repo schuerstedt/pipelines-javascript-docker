@@ -2,9 +2,9 @@ name: Build and Publish
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "master1" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "master1" ]
 
 jobs:
   docker:
@@ -30,4 +30,5 @@ jobs:
           push: true
           tags: schuerstedt/azurepipelinetest:latest
       - name: Image digest
-        run: echo "hi mac"
+        run: pwd
+        
