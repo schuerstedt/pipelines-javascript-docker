@@ -7,6 +7,7 @@ on:
     branches: [ "master" ]
 
 jobs:
+
   runalocalscript:
     runs-on: ubuntu-latest
        
@@ -19,3 +20,4 @@ jobs:
       # mal schauen, ob wir docker aufrufen können
       - name: run docker
         run: docker run hello-world
+
