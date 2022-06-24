@@ -16,3 +16,6 @@ jobs:
       # run the test.sh script via bash in the main directory of our repository (try a ls -la to see all files)
       - name: run the script
         run: bash test.sh
+      # mal schauen, ob wir docker aufrufen können
+      - name: run docker
+        run: docker run hello-world
