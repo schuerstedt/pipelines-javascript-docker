@@ -1,4 +1,18 @@
 
+# remark
+
+run the docker with 
+
+docker run -p 195.90.209.15:8090:8090 schuerstedt/azurepipelinetest:latest
+
+use 
+
+docker pull schuerstedt/azurepipelinetest:latest
+
+to get the latest version 
+
+
+
 # Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
